@@ -8,4 +8,4 @@ Concept - block design of 8 x 8 squares with different colors
           if treasure not found - wav file plays sad sound
           if treasure found - wav file plays hooray sound
 
-          
+          may add pirate wav file to play while selecting
