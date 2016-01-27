@@ -1,4 +1,7 @@
-document.getElementById("test").addEventListener("click", function( event ) {
-    // display the current click count inside the clicked div
-    event.target.innerHTML = "click count: " + event.detail;
-  }, false);
+function userChoice(pick) {
+  if(pick == Math.floor(Math.random() * 3)) {
+    alert("You win the treasure");
+  } else {
+    alert("You lose - time to walk the plank!");
+  }
+}
